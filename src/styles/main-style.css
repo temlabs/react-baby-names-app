@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px;
+  background-color: rgb(0, 255, 98);
+  border-radius: 10px;
+}
+
+.f {
+  background-color: pink;
+  color: rgb(194, 27, 55);
+  cursor: pointer;
+}
+
+.m {
+  background-color: rgb(0, 183, 255);
+  color: rgb(0, 64, 124);
+  cursor: pointer;
+}
+
+.name-div {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: rgb(250, 132, 132);
+  padding: 65px 10px;
+}
+
+.search-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 35px;
+  display: block;
+}
+
+.filter-buttons-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 35px;
+  display: block;
+}
+
+input {
+  /* display: block; */
+  /* margin-left: auto;
+    margin-right: auto; */
+  height: 20px;
+  width: 250px;
+  border-color: rgb(197, 197, 197);
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+  color: rgb(80, 80, 80);
+}
+
+.filter-button-active-false {
+  border-style: none;
+}
+
+.filter-button-active-true {
+  border-bottom: 5px solid rgb(0, 140, 255);
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+}
